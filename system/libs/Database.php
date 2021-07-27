@@ -2,9 +2,9 @@
     class Database extends PDO{
         
         public function __construct(){
-            $connect = "mysql:dbname=phpthuan; host=localhost; charset=utf8";
-            $user = 'root';
-            $password = '';
+            $connect = "mysql:dbname=db_a77e3f_webdt; host=mysql5025.site4now.net; charset=utf8";
+            $user = 'a77e3f_webdt';
+            $password = 'lethithin2000';
             parent::__construct($connect, $user, $password);
         }
 
